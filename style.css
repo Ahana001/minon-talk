@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+:root{
+    --primary-color: #fff000;
+    --border-color: black;
+}
+*{
+    font-family: 'Handlee', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    line-height: 15vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    word-spacing: 20px;
+}
+img{
+    margin-top: 5vh;
+    height: 30vh;
+
+}
+#input{
+    margin-top: 5vh;
+    border: 2px solid var(--border-color);
+    height: 20vh;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#btn{
+    margin-top: 5vh;
+    background-color: var(--primary-color);
+    border: 3px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase; 
+    font-weight: 800; 
+    letter-spacing: 2px;
+}
+p{
+    margin-top: 5vh;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#output{
+    margin-top: 5vh;
+    border: 2px solid var(--border-color);
+    height: 20vh;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+footer{
+    margin-top: 5vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    line-height: 5vh;
+    text-align: center;
+    
+}
+footer div{
+    margin-top: 1vh;
+    font-weight: 800; 
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+footer p{
+    max-width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
